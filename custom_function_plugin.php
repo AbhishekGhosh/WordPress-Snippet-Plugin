@@ -1,14 +1,10 @@
 <?php
 /**
- * Plugin Name: Custom Function Plugin
- * Plugin URI: https://thecustomizewindows.com/2015/05/create-wordpress-plugin-to-avoid-snippets-on-themes-functions-php/
- * Description: Custom plugin to add snippets.
- * Author: Abhishek Ghosh
- * Author URI: https://thecustomizewindows.com
- * Version: 1.0
- */
+ * old version
+ * kept for referance purpose
 // remove post image links
 // https://thecustomizewindows.com/2014/10/remove-wordpress-post-image-link-image-link-404-fix/
+*/
 function k99_image_link_void( $content ) {
     $content =
         preg_replace(
